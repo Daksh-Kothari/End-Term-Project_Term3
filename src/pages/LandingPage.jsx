@@ -28,7 +28,7 @@ export default function LandingPage() {
             <Link to="/login" className="text-sm font-medium text-surface-600 dark:text-surface-300 hover:text-primary-600 transition-colors">
               Log in
             </Link>
-            <Link to="/signup" className="px-4 py-2 text-sm font-medium text-white gradient-bg rounded-xl hover:opacity-90 transition-opacity shadow-md">
+            <Link to="/signup" className="text-sm font-medium text-surface-600 dark:text-surface-300 hover:text-primary-600 transition-colors">
               Get Started
             </Link>
           </div>
@@ -55,7 +55,7 @@ export default function LandingPage() {
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/signup" className="inline-flex items-center gap-2 px-8 py-3.5 text-base font-semibold text-white gradient-bg rounded-2xl hover:opacity-90 transition-opacity shadow-lg hover:shadow-xl">
+            <Link to="/signup" className="inline-flex items-center gap-2 px-8 py-3.5 text-base font-semibold text-surface-700 dark:text-surface-300 bg-white dark:bg-surface-800 rounded-2xl border border-surface-200 dark:border-surface-700 hover:bg-surface-50 dark:hover:bg-surface-700 transition-colors shadow-sm">
               Start for Free <HiOutlineArrowRight className="w-5 h-5" />
             </Link>
             <Link to="/login" className="inline-flex items-center gap-2 px-8 py-3.5 text-base font-semibold text-surface-700 dark:text-surface-300 bg-white dark:bg-surface-800 rounded-2xl border border-surface-200 dark:border-surface-700 hover:bg-surface-50 dark:hover:bg-surface-700 transition-colors shadow-sm">
